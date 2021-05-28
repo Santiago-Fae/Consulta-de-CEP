@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+    font-family: Arial, Helvetica, sans-serif;  
+    overflow-x: hidden;
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.inp {
+    margin-left: 40vw;
+}
+
+#cep {
+    display: block;
+    margin: 1vw auto 3vw;
+    width: 20vw;
+    font-size: 2vw;
+    top: 7vw;
+}
+
+
+label {
+    position: relative;
+    margin: 0 0 3vw;
+    font-size: 20px;
+    transition: .5s;
+    cursor: text;
+
+}
+
+#cidade {
+    top: 20vw;
+}
+#bairro{
+    left: 70.8vw;
+}
+#estado {
+    top: 20vw;
+    left: 70.8vw;
+}
+
+h2 {
+    text-align: center;
+}
+input {
+    position: absolute;
+    background-color: yellow;
+    left: 40vw;
+    height: 3px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 2px;
+    top: 14vw;
+    font-size: 1.5vw;
+    
+}
+
+
+
+input:focus, 
+input:valid {
+    height: 30px;
+    transition: 0.5s;
+}
+
+input:focus + label
+input:valid + label {
+    top: -40px;
+    left: 0;
+}
+
+.cont {
+    text-align: justify;
+    position: absolute;
+    float: left;
+    margin: -16vw 1vw 0 2vw;
+    width: 30vw;
+    height: 23vw;
+    background-color: rgba(255, 251, 0, 0.719);
+    font-size: 1.5vw;
+    padding: 2vw;
+
+}
