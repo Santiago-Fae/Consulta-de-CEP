@@ -1,4 +1,4 @@
-# Consulta de CEP
-Consulta de CEPs via API com Javascript
+# CEP Queries
+Query CEPs via API with Javascript.
 <br>
-Feito apenas para testar API sem foco no design
+Made just for testing API without focus on design
